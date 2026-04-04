@@ -229,8 +229,12 @@
   }
 
   .text-container {
-    text-align: justify;
+    max-width: 90%;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
   }
+
 }
 
 /* ===== Extra small screens: max-width 768px ===== */
