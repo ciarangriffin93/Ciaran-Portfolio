@@ -173,9 +173,9 @@ section {
 
 .section__pic-container img {
   width: 320px;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 20%;
+  border-radius: 50%;
   box-shadow: 0 20px 40px rgba(0, 127, 115, 0.3);
 }
 
