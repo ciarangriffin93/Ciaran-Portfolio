@@ -112,6 +112,16 @@ body {
   background: #00665c;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 /* =========================
    SECTIONS
 ========================= */
