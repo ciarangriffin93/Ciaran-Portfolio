@@ -223,6 +223,35 @@ section {
   color: #007F73;
 }
 
+.about-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about-containers {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.text-container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: #444;
+  text-align: left;
+}
+
 /* =========================
    CARDS
 ========================= */
