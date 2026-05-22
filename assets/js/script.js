@@ -12,3 +12,19 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1500,    // pause before deleting
     loop: true          // infinite loop
 });
+
+function showTab(tabId) {
+  const tabs = document.querySelectorAll('.tab-content');
+  const buttons = document.querySelectorAll('.tab-btn');
+
+  tabs.forEach(tab => {
+    tab.classList.remove('active');
+  });
+
+  buttons.forEach(button => {
+    button.classList.remove('active');
+  });
+
+  document.getElementById(tabId).classList.add('active');
+  event.currentTarget.classList.add('active');
+}

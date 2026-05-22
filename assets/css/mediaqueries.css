@@ -53,6 +53,10 @@
     width: 220px;
     height: 270px;
   }
+
+.skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* =========================
