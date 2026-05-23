@@ -376,6 +376,20 @@ section {
 }
 
 /* =========================
+    HACKATHONS
+======================== */
+.details-container {
+  position: relative;
+}
+
+.award-img {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 85px;
+}
+
+/* =========================
    CONTACT
 ========================= */
 #contact {
